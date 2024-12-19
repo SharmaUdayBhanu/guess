@@ -4,8 +4,8 @@ FROM php:8.2-apache
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy the guess.php file into the container
-COPY guess.php /var/www/html/index.php
+# Copy the index.php file into the container
+COPY index.php /var/www/html/index.php
 
 # Expose port 80 for HTTP traffic
 EXPOSE 80
